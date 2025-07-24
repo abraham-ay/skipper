@@ -84,11 +84,49 @@
   .hero {
     height: 120vh;
   }
+/* Tablettes (≥ 600px) */
+@media (min-width: 600px) {
+  body {
+    font-size: 17px;
+  }
+}
 
+/* Petits laptops / tablettes en paysage (≥ 768px) */
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+
+/* Ordinateurs portables (≥ 992px) */
+@media (min-width: 992px) {
+  body {
+    font-size: 19px;
+  }
+}
+
+/* Grands écrans / desktop (≥ 1200px) */
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+}
   .h1-size {
     font-size: 1.4rem;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .offre {
   font-size: 1rem;
 }
